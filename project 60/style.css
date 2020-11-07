@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.top{
+	height: 40vh;
+	width: 100%;
+	background: #333D79FF;
+}
+.top li{
+	float: right;
+	list-style: none;
+	margin-right: 30px;
+}
+.top a{
+	text-decoration: none;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 13px;
+}
+.top a span{
+	color: blue;
+}
+h1{
+	margin-left: 30px;
+	padding-top: 80px;
+	color: #fff;
+	font-size: 40px;
+}
+h1 span{
+	margin-left: 300px;
+	font-size: 23px;
+}
+p{
+	margin-top: 20px;
+	color: #fff;
+	opacity: 0.2;
+}
+.para{
+	opacity: 0.6;
+	margin-top: 20px;
+}
+.row{
+	height: 59vh;
+	width: 100%;
+	display: inline-flex;
+	background: #333D79FF;
+}
+.col-md-4{
+	height: 59vh;
+	width: 35%;
+}
+.para1{
+	margin-left: 300px;
+	margin-top: 50px;
+	color: #fff;
+}
+.para1 span{
+	font-weight: bold;
+}
+.bar li{
+	margin-left: 440px;
+	list-style: none;
+	margin-top: 10px;
+}
+.bar a{
+	text-decoration: none;
+	color: black;
+}
+h5{
+	float: right;
+	margin-top: 50px;
+	color: #fff;
+}
+#name{
+	height: 59vh;
+	width: 35%;
+}
+.para2{
+	text-align: center;
+	margin-top: 50px;
+	color: #fff;
+}
+.para2 span{
+	font-weight: bold;
+}
+.content li{
+	margin-left: 340px;
+	list-style: none;
+	margin-top: 10px;
+}
+.content a{
+	text-decoration: none;
+	color: black;
+}
+#long{
+	height: 59vh;
+	width: 35%;
+}
+h4{
+	margin-top: 50px;
+	color: #fff;
+	margin-left: 30px;
+}
+.container li{
+	list-style: none;
+	margin-left: 30px;
+}
+
+
+
+@media(max-width: 700px){
+.top{
+	height: 58vh;
+	background: #333D79FF;
+}
+.row{
+	height: 70vh;
+	background: #333D79FF;
+}
+.para1{
+	margin-left: 30px;
+}
+.bar li{
+	margin-left: 40px;
+}	
+.content li{
+	margin-left: 40px;
+}
+}
